@@ -1,5 +1,5 @@
 <div align="center">
-<a align="center" href="https://VSCode.pro/?utm_source=sop"><img align="center" src="https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/1_sop.gif" /></a>
+<a align="center" href="https://VSCode.pro/?utm_source=sop"><img align="center" width="500px" src="https://github.com/MalikBagwala/lights-out/blob/master/img/lights-out.gif" /></a>
 
 ## Available Scripts
 
