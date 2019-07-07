@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+.grid-cell {
+  height: 75px;
+  width: 75px;
+  background: white;
+}
+
+.text-muted {
+  opacity: 0.8;
+  font-weight: normal;
+}
+.grid-cell:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.active {
+  background: #4286f4;
+}
+
+/* Utility Classes */
+.text-heading {
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 4px;
+}
+.text-danger {
+  color: #f64f59;
+}
+
+.text-success {
+  color: #a8ff78;
+}
+
+.btn {
+  background: linear-gradient(to right, #2948ff, #396afc);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 1rem 1.5rem;
+}
+
+.rounded {
+  border-radius: 2rem;
+}
+
+.app-title {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: #fffc00;
+}
