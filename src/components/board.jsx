@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import { useTransition, animated } from 'react-spring';
 import Cell from './cell';
 import './board.css';
 import Victory from './Victory';
 import Failure from './Failure';
+import Logo from './Logo';
 class Board extends Component {
   state = {
     board: [],
@@ -62,24 +64,26 @@ class Board extends Component {
           <Victory onClick={this.playAgain} />
         ) : (
           <div id="main">
-            <h1 className="app-title">Lights ⚡ Out</h1>
+            <h1 className="app-title">Lights {<Logo />} Out</h1>
             <h3>
               {turns} <span className="text-muted">TURNS</span>
             </h3>
             <table className="board">
-              {board.map((row, rowID) => (
-                <tr key={rowID}>
-                  {row.map((col, colID) => (
-                    <Cell
-                      key={`${rowID}-${colID}`}
-                      row={rowID}
-                      col={colID}
-                      isActive={col}
-                      onClick={this.handleCellSelect}
-                    />
-                  ))}
-                </tr>
-              ))}
+              <tbody>
+                {board.map((row, rowID) => (
+                  <tr key={rowID}>
+                    {row.map((col, colID) => (
+                      <Cell
+                        key={`${rowID}-${colID}`}
+                        row={rowID}
+                        col={colID}
+                        isActive={col}
+                        onClick={this.handleCellSelect}
+                      />
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
             </table>
           </div>
         )}
