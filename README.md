@@ -20,3 +20,7 @@ You will also see any lint errors in the console.
 ## View Live App at
 
 <a href="https://pedantic-allen-91e0a4.netlify.com"><img src="https://img.shields.io/badge/NETLIFY-Live%20App-%2300C7B7?logo=netlify"></a>
+
+## Solution
+
+<img width="127" alt="image" src="https://github.com/MalikBagwala/lights-out/assets/23068029/747f2517-9d7e-461c-98c0-7f4699115271">
