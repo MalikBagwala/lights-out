@@ -1,5 +1,5 @@
 <div align="center">
-<a align="center" href="https://pedantic-allen-91e0a4.netlify.com"><img align="center" width="100%" src="https://github.com/MalikBagwala/lights-out/blob/master/img/lights-out.gif" /></a>
+<a align="center" href="https://lightsout.maalik.dev"><img align="center" width="100%" src="./img/lights-out.gif" /></a>
 
 ## Available Scripts
 
@@ -19,7 +19,7 @@ You will also see any lint errors in the console.
 
 ## View Live App at
 
-<a href="https://pedantic-allen-91e0a4.netlify.com"><img src="https://img.shields.io/badge/NETLIFY-Live%20App-%2300C7B7?logo=netlify"></a>
+<a href="https://lightsout.maalik.dev"><img src="https://img.shields.io/badge/NETLIFY-Live%20App-%2300C7B7?logo=netlify"></a>
 
 ## Solution
 
